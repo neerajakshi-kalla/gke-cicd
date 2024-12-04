@@ -4,9 +4,8 @@ metadata:
   name: ey-task-cicd
   labels:
     app: cicd
-description: cicd delivery pipeline
+description: "CI/CD Delivery Pipeline"
 serialPipeline:
   stages:
   - targetId: dev
     profiles: []
-    
