@@ -4,7 +4,7 @@ metadata:
   name: dev
   annotations: {}
   labels: {}
-description: dev
+description: "Development Target"
 gke:
   cluster: projects/ey-demo-proj/locations/us-central1-a/clusters/ey-task-cluster
-
+  namespace: default
