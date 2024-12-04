@@ -6,7 +6,10 @@ build:
   local: {}
 manifests:
   rawYaml:
-    - ./kubernetes/*
+    - manifests:
+  rawYaml:
+    - /workspace/source/deploy/manifest.yaml
+
 deploy:
   kubectl: {}
   logs:
